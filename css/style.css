@@ -1,0 +1,46 @@
+body{
+    background-color:darkslategrey;
+    text-align: left;
+    /*padding: 100px;*/
+    padding-left: 60px;
+padding-right: 60px;
+}
+a{
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover{color: white;
+    border-bottom: yellow 4px dashed;
+    font-size: 15px;
+}
+#one{background-color: white;
+}
+#two{
+    background-color: purple;
+    color:  #d69167;
+}
+body{
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcf.bstatic.com%2Fxdata%2Fimages%2Fhotel%2Fmax1024x768%2F446564090.jpg%3Fk%3D61badc0f196eb7191b679a885b085678ef0d2cb83d0a35e2f17434e0bb952ccf%26o%3D%26hp%3D1&tbnid=WjHmRa3Eod2xbM&vet=12ahUKEwjXwNPMxeSDAxWrnCcCHQIMDVEQMygBegQIARBz..i&imgrefurl=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fke%2Fjk-modern-apartments.en-gb.html&docid=R7hwuJR36tpIrM&w=576&h=768&q=apartments&client=firefox-b-lm&ved=2ahUKEwjXwNPMxeSDAxWrnCcCHQIMDVEQMygBegQIARBz");
+
+}
+
+/*# is an id and .is a class*/
+
+
+p{
+    color: aqua;
+}
+.one{color: yellow;
+    border: lightcoral 2px dashed;
+    /*margin-left: 50px;*/
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 30%;
+    height: 90%;
+}
+/*border radius is reducing the sharp corners*/
+.two{
+    background-color: crimson;
+}
+/*.one is a class*/

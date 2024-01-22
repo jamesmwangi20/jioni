@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lists</title>
+    <style>
+        body{
+            background-image: url("images/1");
+            background-repeat: no-repeat;
+        }
+        ol > li{color: darkred;
+            cursor: pointer;
+
+        }
+        ol > .one{
+            color: dodgerblue;
+        }
+        ol > li:hover{
+            background-color: dodgerblue;
+        }
+    /*ol > .one{*/
+    /*    cursor: pointer;*/
+    /*}*/
+
+        ul > li{color: blue;
+            cursor: grabbing;
+        }
+        ul{
+            list-style-type: circle;
+        }
+        ol{
+            list-style-type: square;
+        }
+ul > li:hover{background-image: url("images/2");
+
+}
+
+    </style>
+
+</head>
+
+<body>
+<h1 class="one" title="items to purchase">Ordered list</h1>
+<!--odered list is ol then tab-->
+<ol>
+    <li>mangoes</li>
+    <li>oranges</li>
+    <li>coconut</li>
+    <li>apples</li>
+    <li>bananas</li>
+</ol>
+<!--li means list items-->
+<h2>unordered list</h2>
+<!--ul means unordered list-->
+<ul>
+    <li>blue</li>
+    <li class="one">red</li>
+    <li>pink</li>
+    <li>white</li>
+    <li>green</li>
+
+</ul>
+
+
+</body>
+</html>
